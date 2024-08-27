@@ -1,0 +1,15 @@
+h2 Add todo
+form(action="/todos/add", method="post")
+  label(for="todo") Todo: 
+  input(type="text", id="Todo", name="todo")
+  br
+  br
+  label(for="description") Description: 
+  input(type="text", id="description", name="description")
+  br
+  br
+  label(for="priority") priority: 
+  input(type="text", id="priority", name="priority")
+  br
+  br
+  input(type="submit", value="submit")

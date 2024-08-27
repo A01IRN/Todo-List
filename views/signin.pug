@@ -1,0 +1,9 @@
+h2 Sign in
+form(action="/auth/signin", method="post")
+  label(for="username") Username: 
+  input(type="text", id="username", name="username")
+  br
+  label(for="password") Password: 
+  input(type="password", id="password", name="password")
+  br
+  input(type="submit", value="sign in")
